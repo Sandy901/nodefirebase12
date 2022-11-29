@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+
+
+    @media only screen and (max-width:$bp-large) {
+        font-size: 50%;
+    }
+}
+
+
+body{
+    box-sizing: inherit;
+    color: $color-grey-dark-1;
+}
